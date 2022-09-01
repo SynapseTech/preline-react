@@ -1,0 +1,57 @@
+@import "../../styles/colors";
+
+.button {
+  @apply py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md
+  border border-transparent font-semibold  focus:outline-none focus:ring-2
+  ring-offset-white focus:ring-offset-2 transition-all text-sm cursor-pointer; // dark:focus:ring-offset-gray-800
+
+  &[disabled] {
+    @apply cursor-not-allowed;
+  }
+
+  &.pilled {
+    @apply rounded-full;
+  }
+
+  &.block {
+    @apply w-full;
+  }
+
+  &.outline {
+    @apply border-2 border-gray-200;
+    // dark:border-gray-700;
+
+    &[disabled] {
+      @apply bg-transparent text-gray-500 hover:bg-transparent hover:text-gray-500
+      border-gray-200 hover:border-gray-200;
+      // dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400;
+    }
+  }
+
+  @each $color in $colors {
+    &.#{$color} {
+      @apply bg-#{$color}-500 text-white hover:bg-#{$color}-600
+      focus:ring-#{$color}-500;
+
+      &[disabled] {
+        @apply bg-#{$color}-400 border border-transparent;
+      }
+
+      &.outline {
+        @apply bg-transparent text-#{$color}-500 border-solid border-2
+        border-#{$color}-200 hover:text-white hover:bg-#{$color}-500
+        hover:border-#{$color}-500 focus:ring-#{$color}-200;
+      }
+
+      &.ghost {
+        @apply text-#{$color}-500 bg-transparent hover:bg-#{$color}-100
+        focus:ring-#{$color}-500;
+      }
+
+      &.soft {
+        @apply bg-#{$color}-100 text-#{$color}-500 hover:text-white
+        hover:bg-#{$color}-500 focus:ring-#{$color}-500;
+      }
+    }
+  }
+}

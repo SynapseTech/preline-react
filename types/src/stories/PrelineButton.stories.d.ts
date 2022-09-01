@@ -1,0 +1,12 @@
+import React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { ButtonProps } from '../components/Button';
+declare const _default: Meta<React.ForwardRefExoticComponent<Pick<ButtonProps<React.ElementType<any>>, string | number | symbol> & React.RefAttributes<unknown>>>;
+export default _default;
+export declare const Primary: Story<ButtonProps<any>>;
+export declare const Outline: Story<ButtonProps<any>>;
+export declare const Ghost: Story<ButtonProps<any>>;
+export declare const Disabled: Story<ButtonProps<any>>;
+export declare const Pilled: Story<ButtonProps<any>>;
+export declare const Block: Story<ButtonProps<any>>;
+export declare const Soft: Story<ButtonProps<any>>;
