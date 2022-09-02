@@ -1,3 +1,6 @@
+# ignore docs, they deploy to a separate branch
+docs
+
 ### Node template
 # Logs
 logs

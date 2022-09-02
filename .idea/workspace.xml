@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/preline-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commonProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/polymorphism.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/PrelineButton.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/common.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpackRules.js" afterDir="false" />
+    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="feat(oss): add readme, license">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/storybook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +82,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662059759987</updated>
-      <workItem from="1662059761953" duration="11882000" />
+      <workItem from="1662059761953" duration="14026000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(react,styles): initialize repo, implement button">
+      <created>1662071937687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662071937687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(oss): add readme, license">
+      <created>1662072364370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662072364370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +114,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(react,styles): initialize repo, implement button" />
+    <MESSAGE value="feat(oss): add readme, license" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(oss): add readme, license" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
