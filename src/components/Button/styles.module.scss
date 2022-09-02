@@ -45,14 +45,6 @@
           @apply hover:text-white hover:bg-#{$color}-500
           hover:border-#{$color}-500;
         }
-
-        &.ghost {
-          @apply border-#{$color}-100 hover:text-#{$color}-500;
-
-          &:not([disabled]) {
-            @apply hover:border-transparent;
-          }
-        }
       }
 
       &.ghost {
@@ -61,10 +53,26 @@
         &:not([disabled]) {
           @apply hover:bg-#{$color}-100;
         }
+
+        &.outline {
+          @apply border-transparent border-solid border-2 hover:bg-transparent;
+
+          &:not([disabled]) {
+            @apply hover:border-#{$color}-100 hover:text-#{$color}-500;
+          }
+        }
       }
 
       &.soft {
         @apply bg-#{$color}-100 text-#{$color}-500 focus:ring-#{$color}-500 hover:text-white;
+
+        &.outline {
+          @apply border-#{$color}-100 bg-transparent border-solid border-2;
+
+          &:not([disabled]) {
+            @apply hover:border-#{$color}-500; //hover:bg-transparent;
+          }
+        }
 
         &[disabled] {
           @apply text-#{$color}-500;

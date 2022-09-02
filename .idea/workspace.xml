@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="fix(build): add branch, even though it supposedly has a default">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="fix(oss): gitignore .idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662059759987</updated>
-      <workItem from="1662059761953" duration="17781000" />
+      <workItem from="1662059761953" duration="19100000" />
     </task>
     <task id="LOCAL-00001" summary="feat(react,styles): initialize repo, implement button">
       <created>1662071937687</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662079763743</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix(oss): gitignore .idea">
+      <created>1662084794199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662084794199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="fix(build): change where it runs" />
     <MESSAGE value="fix(build): rename job" />
     <MESSAGE value="fix(build): add branch, even though it supposedly has a default" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(build): add branch, even though it supposedly has a default" />
+    <MESSAGE value="fix(oss): gitignore .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(oss): gitignore .idea" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
