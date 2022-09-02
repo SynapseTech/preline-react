@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="fix(build): change where it runs">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/storybook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/storybook.yml" afterDir="false" />
+    <list default="true" id="15a95ea5-9e88-4aac-a16f-71a659ab2b00" name="Changes" comment="fix(build): add branch, even though it supposedly has a default">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662059759987</updated>
-      <workItem from="1662059761953" duration="16338000" />
+      <workItem from="1662059761953" duration="17781000" />
     </task>
     <task id="LOCAL-00001" summary="feat(react,styles): initialize repo, implement button">
       <created>1662071937687</created>
@@ -123,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662079557634</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix(build): rename job">
+      <created>1662079589784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662079589784</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix(build): add branch, even though it supposedly has a default">
+      <created>1662079763743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662079763743</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +162,9 @@
     <MESSAGE value="fix(style): tweak button styles to consistently respect disabled state" />
     <MESSAGE value="fix(build): remove unused packages causing build errors" />
     <MESSAGE value="fix(build): change where it runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(build): change where it runs" />
+    <MESSAGE value="fix(build): rename job" />
+    <MESSAGE value="fix(build): add branch, even though it supposedly has a default" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(build): add branch, even though it supposedly has a default" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
