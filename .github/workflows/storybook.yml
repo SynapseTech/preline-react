@@ -4,7 +4,7 @@ on: ['push']
   #   Trigger the action only when files change in the folders defined here
   #   paths: ["src/stories/**", "src/components/**"]
 jobs:
-  build-and-deploy:
+  build-and-deploy-storybook:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
