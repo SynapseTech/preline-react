@@ -39,18 +39,40 @@
 
       &.outline {
         @apply bg-transparent text-#{$color}-500 border-solid border-2
-        border-#{$color}-200 hover:text-white hover:bg-#{$color}-500
-        hover:border-#{$color}-500 focus:ring-#{$color}-200;
+        border-#{$color}-200 focus:ring-#{$color}-200;
+
+        &:not([disabled]) {
+          @apply hover:text-white hover:bg-#{$color}-500
+          hover:border-#{$color}-500;
+        }
+
+        &.ghost {
+          @apply border-#{$color}-100 hover:text-#{$color}-500;
+
+          &:not([disabled]) {
+            @apply hover:border-transparent;
+          }
+        }
       }
 
       &.ghost {
-        @apply text-#{$color}-500 bg-transparent hover:bg-#{$color}-100
-        focus:ring-#{$color}-500;
+        @apply text-#{$color}-500 bg-transparent focus:ring-#{$color}-500;
+
+        &:not([disabled]) {
+          @apply hover:bg-#{$color}-100;
+        }
       }
 
       &.soft {
-        @apply bg-#{$color}-100 text-#{$color}-500 hover:text-white
-        hover:bg-#{$color}-500 focus:ring-#{$color}-500;
+        @apply bg-#{$color}-100 text-#{$color}-500 focus:ring-#{$color}-500 hover:text-white;
+
+        &[disabled] {
+          @apply text-#{$color}-500;
+        }
+
+        &:not([disabled]) {
+          @apply hover:bg-#{$color}-500;
+        }
       }
     }
   }
