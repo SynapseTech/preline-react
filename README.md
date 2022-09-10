@@ -8,7 +8,9 @@ React bindings for [Preline UI][Preline]
 ### Preline already supports react, so why this?
 It does support react, but not very nicely. You still have to include a script
 in your HTML and certain things don't work quite well. This project aims to
-bridge that gap.
+bridge that gap. There also isn't good TypeScript support for their included
+script, and we believe strong types are essential to developer productivity
+and DX.
 
 ## License
 This project is protected under the [MIT License](LICENSE), Copyright (c)
